@@ -4,3 +4,22 @@
 	
 body {font-family: monospace;
 	background: #f0f8ff;}
+	
+.nav-links {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	display:flex;
+	padding:15px;
+	color:#ffe4c4;
+	justify-content: space-between;
+	font-size:17px;}
+
+.nav-image img{
+	float:right;
+	width:25x;
+	height:25px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;}
