@@ -4,7 +4,7 @@
 	
 body {font-family: marker felt, fantasy;
 	background-color: #f0f8ff;
-	color: #708090;}
+	color: #f08080;}
 	
 nav {
 	display: flex;
@@ -16,14 +16,11 @@ nav {
 .nav-links {
 	position: fixed;
 	    width: 100%;
-	    top: 0px;
-	    bottom: 0px;
 	    display: flex;
-	    color: rgb(255, 228, 196);
+	    color: #f08080;
 	    justify-content: space-between;
 	    font-size: 17px;
 	    padding: 15px;}
-
 
 .nav-image img{
 	float:right;
@@ -35,31 +32,44 @@ nav {
 
 header section {
 	padding: 10px 0;
+	text-align: center;
 	}
 
 .container {
 	background-image: url("https://direct-cleaning.net/wp-content/uploads/2013/08/cleaning-18.jpg");
 	height: 100%;
-	background-position: left;
+	background-position: center;
 	background-repeat: no-repeat;
 	position: no-cover;
 	text-align: center;
-	color: white;
-	text-border; black
+	color: #708090;
+	font-size: 300%;
+	text-border; 10px;
 	float: centre;
 	padding: 25px;
 	width: 95%;
 	margin: 25px;}
 	
+a.ex1:hover {background-color: #dda0dd; color: white; opacity: 0.8;}
+a.ex2:hover {background-color: #da70d6; color: white; opacity: 0.8;}
+a.ex3:hover {background-color: #ff00ff; color: white; opacity: 0.8;}
+a.ex4:hover {background-color: #8a2be2; color: white; opacity: 0.8;}
+a.ex5:hover {background-color: #8b008b; color: white; opacity: 0.8;}
+	
 main section {display: flex;
 	width: 900px;
-	margin: auto 0;}
+	margin: auto 0;
+	color: #708090;}
 	
-article {display: absolute;
+article {display: bottom;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 150%;
 		padding: 25px;
-		width: 95%;
-		background-color: #708090;
-		margin: 25px;}
+		width: 100%;
+		background-image: url("https://images.unsplash.com/photo-1546687952-19182f36efe6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80");
+		margin: 25px;
+		color: #708090;}
 		
 img {float: left;
 			width: 33.33%;
@@ -68,16 +78,22 @@ img {float: left;
 img {opacity: 0.5;}
 img:hover {opacity: 1.0;}
 		
-aside {display: flex;
+aside {display: bottom;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 150%;
 		padding: 25px;
 		width: 95%;
-		background-color: #708090;
-		margin: 25px;}
+		background-image: url("https://images.unsplash.com/photo-1546687952-6d339ba068bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80");
+		margin: 25px;
+		color: #708090;}
+		
+		image1 {border: 25px;}
 
 footer { 
 		padding: 10px;
 		text-align: center;
-		color: #000000;}
+		color: #708090;}
 
 
 
