@@ -1,10 +1,11 @@
 * {
 	box-sizing: border-box;
-	}
+	text-decoration: none;
+	color: #708090;}
 	
-body {font-family: marker felt, fantasy;
-	background-color: #f0f8ff;
-	color: #f08080;}
+body {font-family: arial;
+		background-color: #f0f8ff;
+		color: #f08080;}
 	
 nav {
 	display: flex;
@@ -14,7 +15,7 @@ nav {
 	color: #000000;}
 	
 .nav-links {
-	position: fixed;
+		position: fixed;
 	    width: 100%;
 	    display: flex;
 	    color: #f08080;
@@ -36,7 +37,7 @@ header section {
 	}
 
 .container {
-	background-image: url("https://direct-cleaning.net/wp-content/uploads/2013/08/cleaning-18.jpg");
+	background-image: url("https://images.unsplash.com/photo-1522346423789-1f8452345bf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1351&q=80");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -87,6 +88,15 @@ aside {display: bottom;
 		background-image: url("https://images.unsplash.com/photo-1546687952-6d339ba068bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80");
 		margin: 25px;
 		color: #708090;}
+		
+.contact-image img{;
+			width:80px;
+			height:80px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-top: -6px;}
+	
+ul.contact{list-type-}
 		
 		image1 {border: 25px;}
 
