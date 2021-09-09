@@ -21,7 +21,6 @@ body { background: linear-gradient(-45deg, #000000, #e6ffff, #003333, #ffffff);
 			100% {
 				background-position: 0% 50%;}
 			}
-	
 nav {
 	display: flex;
 	justify-content: space-between;
