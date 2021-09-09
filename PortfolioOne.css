@@ -6,11 +6,26 @@
 body {font-family: arial;
 		background-color: #f0f8ff;
 		color: maroon;}
+		
+body { background: linear-gradient(-45deg, #000000, #e6ffff, #003333, #ffffff);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			height: 100vh;}
+		
+@keyframes gradient { 0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;}
+			}
 	
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 0px;
 	background-color: #ffffff;
 	color: #000000;}
 	
@@ -75,10 +90,10 @@ article {text-align: center;
 	display: center;
 	background-position: center;
 	background-repeat: no-repeat;
-	font-size: 100%;
-		padding: 25px;
-		width: 100%;
-		background-image: url("https://images.unsplash.com/photo-1546687952-19182f36efe6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80");
+	font-size: 120%;
+		padding: 50px;
+		width: 95%;
+		background-image: url("https://images.unsplash.com/photo-1495841020177-1919ede29bd8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2962&q=80");
 		margin: 25px;
 		color: #708090;}
 
@@ -136,7 +151,7 @@ h2 {font-family: 'anton', sans-serif; text-shadow: 0px 2px 1px #000000; font-siz
 
 h3 {font-family: 'anton', sans-serif; text-shadow: 0px 2px 1px #000000; font-size: 40px;}
 		
-p {font-family: 'anton', sans-serif; text-shadow: 0px 2px 1px #000000; font-size: 30px;}
+p {font-family: 'anton', sans-serif; text-shadow: 0px 2px 1px #000000; font-size: 40px;}
 
 li {font-family: 'anton', sans-serif; text-shadow: 0px 2px 1px #000000; font-size: 20px;}
 
